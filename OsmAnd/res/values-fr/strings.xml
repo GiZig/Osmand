@@ -350,7 +350,7 @@
   <string name="amenity_type_natural">Nature</string>
   <string name="amenity_type_office">Service</string>
   <string name="amenity_type_other">Autre</string>
-  <string name="amenity_type_shop">Magasin</string>
+  <string name="amenity_type_shop">Commerce</string>
   <string name="amenity_type_sport">Sport</string>
   <string name="amenity_type_sustenance">Restauration</string>
   <string name="amenity_type_tourism">Tourisme</string>
@@ -555,7 +555,7 @@
   <string name="context_menu_item_update_map_confirm">Mettre à jour les données locales depuis internet ?</string>
   <string name="search_history_city">Ville :\n{0}</string>
   <string name="search_history_street">Rue :\n{0}\n{1}</string>
-  <string name="search_history_int_streets">Intersection :\n{0} x {1} dans {2}</string>
+  <string name="search_history_int_streets">Intersection :\n{0} x {1} à {2}</string>
   <string name="search_history_building">Bâtiment :\n{0} {1}\n{2}</string>
   <string name="favorite">Favori </string>
   <string name="clear_all">Effacer tout</string>
@@ -677,7 +677,7 @@
   <string name="exit_Button">Quitter</string>
   <string name="map_Button">Carte</string>
   <string name="settings_Button">Paramètres</string>
-  <string name="favorites_Button">Favoris</string>
+  <string name="favorites_Button">Mes lieux</string>
   <string name="search_button">Rechercher</string>
   <string name="search_activity">Rechercher</string>
   <string name="searchpoi_activity">Choisir PI</string>
@@ -886,10 +886,10 @@
   <string name="transport_search_desc">Recherche de transports en commun</string>
   <string name="favourites_search_desc">Recherche parmi les favoris</string>
   <string name="history_search_desc">Historique des recherches</string>
-  <string name="route_roundabout">Rond-point : prendre la %1$d sortie et continuez pendant</string>
-  <string name="route_kl">Serrez à gauche et continuez pendant</string>
-  <string name="route_kr">Serrez à droite et continuez pendant</string>
-  <string name="rendering_attr_noPolygons_description">Rendre toutes les zones transparentes sur la carte</string>
+  <string name="route_roundabout">Rond-point : prendre la %1$d sortie et continuez</string>
+  <string name="route_kl">Serrez à gauche et continuez</string>
+  <string name="route_kr">Serrez à droite et continuez</string>
+  <string name="rendering_attr_noPolygons_description">Rendre invisibles les surfaces représentant des éléments de terrain</string>
   <string name="rendering_attr_noPolygons_name">Pas de polygones</string>
   <string name="rendering_attr_appMode_name">Profil pour le rendu</string>
   <string name="rendering_attr_appMode_description">Optimisation de la carte selon le profil d\'utilisation</string>
@@ -1717,12 +1717,12 @@ Afghanistan, Albanie, Algérie, Allemagne, Andorre, Angola, Anguilla, Antigua-et
     <string name="gpx_selection_current_track">En cours d\'enregistrement</string>
     <string name="gpx_selection_route_points">%1$s \nPoints d\'itinéraire %2$s</string>
     <string name="gpx_selection_points">%1$s \nPoints</string>
-    <string name="gpx_selection_track">%1$s \nTrace %2$s</string>
+    <string name="gpx_selection_track">%1$s \nTrace %2$spen</string>
     <string name="gpx_available_current_track">Trace en cours d\'enregistrement</string>
     <string name="gpx_wpt">Point de cheminement</string>
     <string name="map_widget_plain_time">Heure</string>
     <string name="loading_smth">Chargement de %1$s …</string>
     <string name="save_as_favorites_points">Enregistrer comme groupe de favoris</string>
-    <string name="select_destination_and_intermediate_points">Sélectionner les points du chemin</string>
-    <string name="layer_amenity_label">Étiquettes textuelles</string>
+    <string name="select_destination_and_intermediate_points">Sélectionner les points de cheminement</string>
+    <string name="layer_amenity_label">Étiquette des points</string>
     </resources>
